@@ -15,6 +15,8 @@ Create a project in ES2020 and using the Phaser game library (version 4) that di
     * There should be an abstract Bouncer class that extends from Phaser's Sprite class.
     * There should be a Circle class that extends from the Bouncer class.  Circles should be 50 pixels in diameter.  When they are created, they should have a random color.
 
+Codex didn't get the Javscript module setup correct.  I had to tweak the `index.html` and delete some `import` statements from code.  The result did not work with version 4 of Phaser, so I had to downgrade to version 3.6.
+
 ---
 
 Browser-only ES2020 project using Phaser 4 to render 64 bouncing circles as an offline-capable PWA.
