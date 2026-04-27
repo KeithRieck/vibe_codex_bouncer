@@ -1,7 +1,7 @@
 {
   "name": "vibe_codex_bouncer",
   "short_name": "vibe_codex_bouncer",
-  "description": "A browser-only Phaser 4 progressive web app with 64 bouncing circles.",
+  "description": "A browser-only Phaser progressive web app with 64 bouncing circles.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

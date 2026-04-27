@@ -19,11 +19,11 @@ Codex didn't get the Javscript module setup correct.  I had to tweak the `index.
 
 ---
 
-Browser-only ES2020 project using Phaser 4 to render 64 bouncing circles as an offline-capable PWA.
+Browser-only ES2020 project using Phaser to render 64 bouncing circles as an offline-capable PWA.
 
 ## Structure
 
-- `index.html` bootstraps the app and defines an import map for Phaser 4.
+- `index.html` bootstraps the app and defines an import map for Phaser.
 - `js/` contains plain ES modules with no build step.
 - `sw.js` and `manifest.webmanifest` make the app installable and offline-capable.
 
