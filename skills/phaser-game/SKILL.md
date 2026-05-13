@@ -1,6 +1,6 @@
 ---
 name: phaser-game
-description: Use this skill when working on this repository's Phaser-based browser game, including feature work, bug fixes, refactors, and small gameplay experiments.
+description: Use this skill when creating a new Phaser game or working on this repository's Phaser-based browser game, including feature work, bug fixes, refactors, and small gameplay experiments.
 ---
 
 # Phaser Game
