@@ -24,7 +24,7 @@ Browser-only ES2020 project using Phaser to render 64 bouncing circles as an off
 ## Structure
 
 - `index.html` bootstraps the app and defines an import map for Phaser.
-- `js/` contains plain ES modules with no build step.
+- `src/` contains plain ES modules with no build step.
 - `sw.js` and `manifest.webmanifest` make the app installable and offline-capable.
 
 ## Notes
