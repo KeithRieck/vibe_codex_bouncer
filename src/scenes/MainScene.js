@@ -9,7 +9,6 @@ export class MainScene extends Phaser.Scene {
   }
 
   create() {
-    this.createCircleTexture();
     this.resizeWorld(this.scale.width, this.scale.height);
     this.spawnCircles();
 
@@ -17,21 +16,6 @@ export class MainScene extends Phaser.Scene {
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => {
       this.scale.off('resize', this.handleResize, this);
     });
-  }
-
-  createCircleTexture() {
-    if (this.textures.exists('circle')) {
-      return;
-    }
-
-    const diameter = Circle.diameter;
-    const radius = diameter / 2;
-    const graphics = this.make.graphics({ x: 0, y: 0, add: false });
-
-    graphics.fillStyle(0xffffff, 1);
-    graphics.fillCircle(radius, radius, radius);
-    graphics.generateTexture('circle', diameter, diameter);
-    graphics.destroy();
   }
 
   spawnCircles() {

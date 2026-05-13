@@ -1,10 +1,11 @@
+import { BootScene } from './scenes/BootScene.js';
 import { MainScene } from './scenes/MainScene.js';
 
 const config = {
   type: Phaser.AUTO,
   parent: 'app',
   backgroundColor: '#020617',
-  scene: [MainScene],
+  scene: [BootScene, MainScene],
   physics: {
     default: 'arcade',
     arcade: {

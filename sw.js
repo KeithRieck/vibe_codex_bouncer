@@ -1,13 +1,13 @@
 const CACHE_NAME = 'vibe_codex_bouncer-v1';
-const PHASER_URL = 'https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js;
+const PHASER_URL = 'https://cdn.jsdelivr.net/npm/phaser@3.60.0/dist/phaser-arcade-physics.min.js';
 const APP_SHELL = [
   './',
   './index.html',
   './manifest.webmanifest',
-  './js/main.js',
-  './js/game/Bouncer.js',
-  './js/game/Circle.js',
-  './js/scenes/MainScene.js',
+  './src/main.js',
+  './src/game/Bouncer.js',
+  './src/game/Circle.js',
+  './src/scenes/MainScene.js',
   './icons/icon-192.svg',
   './icons/icon-512.svg',
   PHASER_URL
